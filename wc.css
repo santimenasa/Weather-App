@@ -4,7 +4,6 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: blue;
   font-family: "Open Sans", sans-serif;
   background-image: url("https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-repeat: no-repeat;
@@ -44,7 +43,7 @@ button:hover {
 }
 
 .search-bar {
-  border-radius: 10px;
+  border-radius: 0.8em;
   border: none;
   padding: 0.8em;
 }
@@ -71,14 +70,25 @@ img {
 .icono {
   margin-bottom: 10px;
   font-size: 40px;
+}
+.fa-sun{
+  color: #ffd60a;
+}
+.fa-cloud{
+  color: grey;
+}
+.fa-cloud-rain{
+  color: grey;
+}
+.fa-cloud-hail{
+  color: grey;
+}
+.fa-cloud-sun{
   color: #219ebc;
 }
-.sunColor {
-  color: #ffb703;
+.fa-snowflake{
+  color: antiquewhite;
 }
-.cloudColor {
-  color: #8a817c;
-}
-.sunCloud {
-  color: #0096c7;
+.fa-smog{
+  color: grey;
 }
