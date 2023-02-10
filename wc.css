@@ -39,13 +39,14 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: rgb(20, 180, 100);
+  background-color: #a2d2ff;
 }
 
 .search-bar {
   border-radius: 0.8em;
   border: none;
   padding: 0.8em;
+  height: 2em;
 }
 .temp {
   font-size: 28px;
